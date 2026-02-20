@@ -27,7 +27,7 @@ const App = () => {
         <Route path='/orders' element = {<Orders />} />
       </Routes>
     </div>
-    // start from 56 min of the lecture video 
+    
     
   )
 }
