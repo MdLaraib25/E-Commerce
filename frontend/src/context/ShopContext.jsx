@@ -5,15 +5,15 @@ export const ShopContext = createContext();
 
 const ShopContextProvider = (props) => {
     const currency = '$';
-    const deliver_fee = 10;
+    const delivery_fee = 10;
 
     const value = {
-        products, currency , deliver_fee
+        products, currency , delivery_fee
     }
     return (
         <ShopContext.Provider value={value}>
             {props.children}
-        </ShopContext.Provider> 
+        </ShopContext.Provider>
     )
 }
 export default ShopContextProvider;
